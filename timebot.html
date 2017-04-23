@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta property="og:image" content="https://scontent.xx.fbcdn.net/v/t1.0-9/17990948_421934554816923_8215360792727293007_n.png?oh=cc63634a8d3c9e651135cf098391c623&oe=599826AB"" />
+    <link rel="stylesheet" href="timebot.css" /> 
+    <link rel="shortcut icon"
+        href="https://scontent.xx.fbcdn.net/v/t1.0-9/17990948_421934554816923_8215360792727293007_n.png?oh=cc63634a8d3c9e651135cf098391c623&oe=599826AB" />
+    </head>
+    
+    <!-- For the buttons, take some cues from Pomo-Bot and make them look nicer-->
+    
+    <body>
+        
+        <a href="index.html">Home</a>
+        
+        <h1> Time-Bot </h1>
+        
+        <p></p>
+        
+       
+        
+        <!--This is the class wrapper so that stuff gets hidden -->
+        <div class = "hidden">
+            
+         <img src="https://scontent.xx.fbcdn.net/v/t31.0-8/s960x960/17973889_421924448151267_993896849465824685_o.png?oh=3fa06e49b1a24950e1894884ecc5e64f&oe=5951D000">
+            <!-- This is where the questions show up-->
+        <p class = "questions">How long do you want to work? (Enter in minutes)</p>
+        
+            <!-- This is where the form is-->
+        <div class="form">
+            <label for="enter">Enter Here:</label>
+            <input type="text" id="enter" class="enter">
+            <button type="Submit" class ="button Submit">Submit</button>
+        </div>
+        
+            <!-- This is for the responses / answers you type in real-time-->
+        <div class ="responses">
+          <p class ="answers"></p>
+        </div>
+        </div>
+        
+        <p></p>
+        
+        <!-- This is where the final schedule appears-->
+        <ul class="finalschedule">
+            <li class ="schedule"></li>
+        </ul>
+        
+        <!-- The two nice buttons come in here-->
+        <button class ="button reset">Reset</button>
+        <button class ="button make">MAKE SCHEDULE</button>
+        
+    </body>
+        <script src="timebot.js"></script>
+    
+</html>
